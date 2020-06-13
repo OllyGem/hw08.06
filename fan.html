@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fan</title>
+    <style>
+        body{
+            font-family: arial;
+            margin: 0;
+            background-color: #333;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2,p{
+            margin: 0;
+        }
+
+        #fan{
+            color: white;
+            position: relative;
+            /* background-color: thistle; */
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+
+        #fan li{
+            /* border: 1px solid red; */
+            position: absolute;
+            bottom: 0;
+            padding: 1em;
+            width: 500px;
+            box-sizing: border-box;
+            transform-origin: 4% center;
+            left: 50%;
+            text-align: right;
+            border-radius: 100% 20px 20px 100%;
+            box-shadow: 0 0 3px 2px #333;
+            background-image: linear-gradient(#ffffff63, #0000004a, #ffffff63);
+            transform: rotate(-90deg);
+            transition: 0.7s;
+        }
+
+        #fan li::before{
+            content: "\25EF";
+            color: transparent;
+            border: 2px solid #555;
+            border-radius: 100%;
+            background-image: linear-gradient(90deg, #ffffff63, #222);
+
+            position: relative;
+            top: 2em;
+            right: 28em;
+        }
+
+        #fan h2{
+            position: relative;
+            top: 1.6em;
+        }
+
+        #fan p{
+            position: relative;
+            top: -2.1em;
+        }
+
+        #fan p::before{
+            content: "\00AB";
+        }
+
+        #fan p::after{
+            content: "\00BB";
+        }
+
+        #fan li:nth-child(1){
+            background-color: #404040;
+        }
+
+        #fan li:nth-child(2){
+            background-color: #454545;
+        }
+
+        #fan li:nth-child(3){
+            background-color: #505050;
+        }
+
+        #fan li:nth-child(4){
+            background-color: #555555;
+        }
+
+        #fan li:nth-child(5){
+            background-color: #606060;
+        }
+
+        #fan li:nth-child(6){
+            background-color: #656565;
+        }
+
+        #fan li:nth-child(7){
+            background-color: #707070;
+        }
+
+        #fan li:nth-child(8){
+            background-color: #757575;
+        }
+
+        #fan li:nth-child(9){
+            background-color: #808080;
+        }
+
+        #fan li:nth-child(10){
+            background-color: #858585;
+        }
+
+        #fan li:nth-child(11){
+            background-color: #909090;
+        }
+
+
+        /* HOVER */
+        #fan:hover li:nth-child(1){
+            transform: rotate(-40deg);
+        }
+
+        #fan:hover li:nth-child(2){
+            transform: rotate(-50deg);
+        }
+
+        #fan:hover li:nth-child(3){
+            transform: rotate(-60deg);
+        }
+
+        #fan:hover li:nth-child(4){
+            transform: rotate(-70deg);
+        }
+
+        #fan:hover li:nth-child(5){
+            transform: rotate(-80deg);
+        }
+
+        #fan:hover li:nth-child(6){
+            transform: rotate(-90deg);
+        }
+
+        #fan:hover li:nth-child(7){
+            transform: rotate(-100deg);
+        }
+
+        #fan:hover li:nth-child(8){
+            transform: rotate(-110deg);
+        }
+
+        #fan:hover li:nth-child(9){
+            transform: rotate(-120deg);
+        }
+
+        #fan:hover li:nth-child(10){
+            transform: rotate(-130deg);
+        }
+
+        #fan:hover li:nth-child(11){
+            transform: rotate(-140deg);
+        }
+        
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </header>
+    
+    <ul id="fan">
+        <li>
+            <h2>Maiores, sunt commodi.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, ipsa.</p>
+        </li>
+        <li>
+            <h2>Consequuntur, ipsa repudiandae!</h2>
+            <p>Voluptates iure omnis eaque tempore debitis obcaecati! Mollitia, minima sit!</p>
+        </li>
+        <li>
+            <h2>Earum, itaque rem?</h2>
+            <p>Non at quod ab. Exercitationem debitis pariatur blanditiis voluptatem modi.</p>
+        </li>
+        <li>
+            <h2>Numquam, vero sit!</h2>
+            <p>Minus, voluptates ducimus quidem fugiat perspiciatis exercitationem beatae architecto iure?</p>
+        </li>
+        <li>
+            <h2>Voluptatem, quis repudiandae?</h2>
+            <p>Nesciunt, fugiat ad. Iste veritatis voluptate natus perferendis nobis possimus?</p>
+        </li>
+        <li>
+            <h2>Fugit, quis repudiandae!</h2>
+            <p>Neque, magnam deleniti aliquam molestias quam placeat error et possimus!</p>
+        </li>
+        <li>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Dignissimos fugit maiores similique est ipsam quam in perferendis consectetur.</p>
+        </li>
+        <li>
+            <h2>Debitis, reiciendis enim?</h2>
+            <p>Unde, consectetur. Velit nulla officia optio dolor consectetur, omnis labore.</p>
+        </li>
+        <li>
+            <h2>Beatae, debitis natus!</h2>
+            <p>Quo accusamus ab iusto inventore sapiente quasi possimus omnis quibusdam.</p>
+        </li>
+        <li>
+            <h2>Doloremque, a natus.</h2>
+            <p>Tenetur ea corrupti vel eum laborum accusantium. Laborum, error rem.</p>
+        </li>
+        <li>
+            <h2>Repudiandae, reprehenderit. Quia?</h2>
+            <p>Reiciendis, inventore veritatis ipsam eum sint laborum <br> quis fugit. Fuga.</p>
+        </li>
+    </ul>
+
+    <article>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil vero nisi harum quia dolores, veritatis quis. Facilis eveniet dolor, minus amet minima nostrum eum explicabo ex, sit animi consequuntur rem deserunt voluptatibus nisi vero dolore iusto quibusdam sint totam. Vel sunt iusto eligendi beatae consectetur rem, excepturi, temporibus quasi fuga quia minus error nisi repellendus assumenda voluptate esse molestias, labore natus nemo. Voluptates quod debitis neque atque pariatur optio? Debitis expedita consectetur doloremque neque natus, quisquam consequuntur nesciunt dolorem ullam veritatis id adipisci cumque quibusdam assumenda ipsum iure facilis magni corporis magnam delectus similique vero. Debitis ipsa nam magnam veniam sint asperiores, molestias minima reiciendis itaque architecto fuga pariatur harum nisi odio id porro iusto est dolorem libero illum sapiente accusantium aspernatur hic tempora? Sapiente nobis dolore quos id molestiae eaque, vero vel ipsa officia commodi, ab recusandae aut maiores earum quasi quia consequatur amet eos sint ea perspiciatis natus. Suscipit neque voluptatum dolore error doloribus vero soluta voluptates maxime eum exercitationem labore, excepturi nihil vel iure vitae! Beatae eligendi nobis harum fugit. Amet nam, facere rem, itaque dolore repellat deserunt incidunt consectetur repellendus, temporibus explicabo asperiores praesentium voluptas ab repudiandae fugiat. Assumenda, amet impedit nesciunt voluptatibus laudantium facilis?
+        </p>
+
+
+    </article>
+
+    
+</body>
+</html>
